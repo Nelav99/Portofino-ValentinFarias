@@ -28,10 +28,10 @@ export default function Navbar() {
                         <div className='textRight'>
                             <ul className='headerDropdown'>
                                 <li className='mobileWishlist'>
-                                    <a href='/' className='wishlist'><i class="fa-solid fa-heart"></i>Wishlist</a>
+                                    <a href='/' className='wishlist'><i className="fa-solid fa-heart"></i>Wishlist</a>
                                 </li>
                                 <li className='mobileAccount'>
-                                    <a href='/' className='myAccount'><i class="fa-solid fa-user"></i>My Account</a>
+                                    <a href='/' className='myAccount'><i className="fa-solid fa-user"></i>My Account</a>
                                 </li>
                             </ul>
                         </div>
@@ -52,10 +52,10 @@ export default function Navbar() {
                             <Box sx={{ flexGrow: 2, display: { xs: 'none', md: 'flex' } }} className='menuRight'>
                                 <div>
                                     <div className='containerMenu'>
-                                        <div className='mainMenu'>
+                                        <div className='mainMenu' key={pages}>
                                             <ul className='navMenu'>
                                                 {pages.map((page) => (
-                                                    <Button>
+                                                    <Button key={page}>
                                                         <a href='/'>
                                                             {page}
                                                             <span className='subArrow'>
