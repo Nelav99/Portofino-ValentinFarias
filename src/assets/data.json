@@ -1,0 +1,398 @@
+[
+    {
+        "id": 1,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/f1.jpg",
+        "name": "Sunflowers Shirt",
+        "price": 38.99,
+        "currency": "$",
+        "category": "Shirts",
+        "for": "men"
+    },
+    {
+        "id": 2,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/f2.jpg",
+        "name": "Coconut Beach Shirts",
+        "price": 38.99,
+        "currency": "$",
+        "category": "Shirts",
+        "for": "men"
+    },
+    {
+        "id": 3,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/f3.jpg",
+        "name": "Cést La Vie T-Shirt",
+        "price": 18.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "men"
+    },
+    {
+        "id": 4,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/f4.jpg",
+        "name": "Mawi T-Shirt",
+        "price": 18.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "men"
+    },
+    {
+        "id": 5,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/f5.jpg",
+        "name": "Pineapple Shirts",
+        "price": 38.99,
+        "currency": "$",
+        "category": "Shirts",
+        "for": "men"
+    },
+    {
+        "id": 6,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/f6.jpg",
+        "name": "Multi-Brown Jacket",
+        "price": 52.99,
+        "currency": "$",
+        "category": "Jackets",
+        "for": "men"
+    },
+    {
+        "id": 7,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/f7.jpg",
+        "name": "Stockholm Jacket",
+        "price": 52.99,
+        "currency": "$",
+        "category": "Jackets",
+        "for": "men"
+    },
+    {
+        "id": 8,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/f8.jpg",
+        "name": "Classic Trousers",
+        "price": 25.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "men"
+    },
+    {
+        "id": 9,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n1.jpg",
+        "name": "Chest Pocket T-Shirt",
+        "price": 38.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "men"
+    },
+    {
+        "id": 10,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n2.jpg",
+        "name": "Two-Tone Pants",
+        "price": 24.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "men"
+    },
+    {
+        "id": 11,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n3.jpg",
+        "name": "Casual Loose Pants",
+        "price": 24.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "men"
+    },
+    {
+        "id": 12,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n4.jpg",
+        "name": "Striped Shirts",
+        "price": 38.99,
+        "currency": "$",
+        "category": "Shirts",
+        "for": "men"
+    },
+    {
+        "id": 13,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n5.jpg",
+        "name": "Pineapple Set",
+        "price": 58.99,
+        "currency": "$",
+        "category": "Sets",
+        "for": "men"
+    },
+    {
+        "id": 14,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n6.jpg",
+        "name": "Multi-Lines Set",
+        "price": 58.99,
+        "currency": "$",
+        "category": "Sets",
+        "for": "men"
+    },
+    {
+        "id": 15,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n7.jpg",
+        "name": "Sunflower Up Shirts",
+        "price": 38.99,
+        "currency": "$",
+        "category": "Shirts",
+        "for": "men"
+    },
+    {
+        "id": 16,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n8.jpg",
+        "name": "Sun & Moon Shirts",
+        "price": 38.99,
+        "currency": "$",
+        "category": "Shirts",
+        "for": "men"
+    },
+    {
+        "id": 17,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n9.jpg",
+        "name": "Three Color T-Shirt",
+        "price": 22.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "men"
+    },
+    {
+        "id": 18,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n10.jpg",
+        "name": "Color Curve T-Shirt",
+        "price": 22.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "men"
+    },
+    {
+        "id": 19,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n11.jpg",
+        "name": "Tomorrow T-Shirt",
+        "price": 24.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "men"
+    },
+    {
+        "id": 20,
+        "image": "https://raw.githubusercontent.com/Nelav99/Malmo-Clothes-Valentin-Farias/main/img/products/n12.jpg",
+        "name": "NASA T-Shirt",
+        "price": 24.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "men"
+    },
+    {
+        "id": 21,
+        "image": "https://i.pinimg.com/564x/59/67/b0/5967b04b01e8c141a24d863d11362ffc.jpg",
+        "name": "Banded Pants",
+        "price": 24.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "men"
+    },
+    {
+        "id": 22,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/4E/EC/483e69d2-1e56-4bff-ac7b-0ec8238549b2.jpg?s=702x936",
+        "name": "Astronaut Moon T-Shirt",
+        "price": 18.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "men"
+    },
+    {
+        "id": 23,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/00/D3/a0118249-a3b6-42d8-9f60-5acec650e8f0.jpg",
+        "name": " Ethnic Smiley T-Shirt",
+        "price": 18.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "men"
+    },
+    {
+        "id": 24,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/89/89/5322d4ab-c660-4b3c-a187-7bccd9676a46.jpg?s=702x936",
+        "name": "Mushrooms T-Shirt",
+        "price": 18.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "women"
+    },
+    {
+        "id": 25,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/3A/2A/755142e1-5ab6-4a14-b21d-5d8162aa8c2a.jpg?s=702x936",
+        "name": "White Seda Shirt",
+        "price": 18.99,
+        "currency": "$",
+        "category": "Shirts",
+        "for": "women"
+    },
+    {
+        "id": 26,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/43/D8/aa3e4eee-d6d5-4a49-9998-216f0387bb9a.jpg?s=702x936",
+        "name": "Black Seda Shirt",
+        "price": 18.99,
+        "currency": "$",
+        "category": "Shirts",
+        "for": "women"
+    },
+    {
+        "id": 27,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/D8/B6/846ef35a-1bdb-4d8c-a16f-b275a32f9a94.jpg?s=702x936",
+        "name": "Brown Seda Shirt",
+        "price": 18.99,
+        "currency": "$",
+        "category": "Shirts",
+        "for": "women"
+    },
+    {
+        "id": 28,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/1A/87/0c141045-7254-4b0a-b915-3410e2eec00a.jpg?s=702x936",
+        "name": "Multi-Color Sweater",
+        "price": 22.99,
+        "currency": "$",
+        "category": "Sweater",
+        "for": "women"
+    },
+    {
+        "id": 29,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/D2/CB/ee4331b7-0a71-4475-8eec-b256dc5197f1.jpg?s=702x936",
+        "name": "Cream Dress",
+        "price": 25.99,
+        "currency": "$",
+        "category": "Dress",
+        "for": "women"
+    },
+    {
+        "id": 30,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/D3/F3/59b57775-1ac9-4ed9-851a-b9b08ed81311.jpg?s=702x936",
+        "name": "Red Flowers Dress",
+        "price": 25.99,
+        "currency": "$",
+        "category": "Dress",
+        "for": "women"
+    },
+    {
+        "id": 31,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/5A/BC/024fed52-f217-4040-b9ce-e5745effe091.jpg?s=702x936",
+        "name": "Light Flowers Dress",
+        "price": 25.99,
+        "currency": "$",
+        "category": "Dress",
+        "for": "women"
+    },
+    {
+        "id": 32,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/E3/33/41723618-5a62-4305-9d29-04ea377ce4db.jpg?s=702x936",
+        "name": "White Trousers",
+        "price": 18.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "women"
+    },
+    {
+        "id": 33,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/AC/1F/8dbc6c78-606c-4799-b9b3-3bb0b3feabdb.jpg?s=702x936",
+        "name": "Creame Trousers",
+        "price": 18.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "women"
+    },
+    {
+        "id": 34,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/56/D0/73b1b51c-0e16-48ec-b71f-ad263a2a43cc.jpg?s=702x936",
+        "name": "LightBlue Jacket",
+        "price": 38.99,
+        "currency": "$",
+        "category": "Jackets",
+        "for": "women"
+    },
+    {
+        "id": 35,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/72/EB/2e01e80c-a214-4fcf-8721-16541bd4a448.jpg?s=702x936",
+        "name": "Black&White Trousers",
+        "price": 18.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "women"
+    },
+    {
+        "id": 36,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/A9/BF/02871eaa-5953-4e0c-899b-d49a82e270ab.jpg?s=702x936",
+        "name": "Paint Trouser",
+        "price": 24.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "women"
+    },
+    {
+        "id": 37,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/F4/DC/8052c5e1-daaa-4955-8d24-b20d714158de.jpg?s=702x936",
+        "name": "Multi-Lines Skirt",
+        "price": 16.99,
+        "currency": "$",
+        "category": "Skirt",
+        "for": "women"
+    },
+    {
+        "id": 38,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/FE/BB/ce1dcb4e-4e96-4239-9b01-9d4b6ac1670d.jpg?s=702x936",
+        "name": "Rustic Trousers",
+        "price": 18.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "women"
+    },
+    {
+        "id": 39,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/22/64/0e651fee-5b3b-4688-aabd-c0cff2d643ac.jpg?s=702x936",
+        "name": "Pink T-Shirt",
+        "price": 22.99,
+        "currency": "$",
+        "category": "T-Shirts",
+        "for": "women"
+    },
+    {
+        "id": 40,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/0E/E2/4896e807-64d1-4719-be4d-b8787c4face4.jpg?s=702x936",
+        "name": "Green Line Dress",
+        "price": 28.99,
+        "currency": "$",
+        "category": "Dress",
+        "for": "women"
+    },
+    {
+        "id": 41,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/27/03/8fec71a7-4ee7-4688-b744-71779a9abdd9.jpg?s=702x936",
+        "name": "Black Oversize Trousers",
+        "price": 22.99,
+        "currency": "$",
+        "category": "Trousers",
+        "for": "women"
+    },
+    {
+        "id": 42,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/AB/67/8a6381b0-0d87-46f6-9cc3-90a02c3ed01f.jpg",
+        "name": "Black Buttom Dress",
+        "price": 32.99,
+        "currency": "$",
+        "category": "Dress",
+        "for": "women"
+    },
+    {
+        "id": 43,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/C0/F5/41277192-fb99-414a-988d-1b3a77fed927.jpg?s=702x936",
+        "name": "Black&White Flowers Dress",
+        "price": 32.99,
+        "currency": "$",
+        "category": "Dress",
+        "for": "women"
+    },
+    {
+        "id": 45,
+        "image": "https://imgaz1.chiccdn.com/thumb/large/oaupload/newchic/images/22/04/d698dd65-5d0d-4858-8e75-6353a7c03fcb.jpg?s=702x936",
+        "name": "Floral Skirt",
+        "price": 22.99,
+        "currency": "$",
+        "category": "Skirt",
+        "for": "women"
+    }
+]

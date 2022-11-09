@@ -1,15 +1,28 @@
 import React from "react";
-import { Box, Container, Typography } from "@mui/material";
-import HeroImage from '../assets/img/hero/hero1.jpg'
+import BannerPri from "./BannersPri";
+import Hero from "./Hero";
+import PrincipalTitle from "./PrincipalTitle";
+import ParallaxBanner from "./ParallaxBanner";
+import SpecialProducts from "./SpecialProducts";
+import ServiceBanner from "./ServiceBanner";
+import SectionBlog from "./SectionBlog";
+import CarruselProducts from "./CarruselProducts";
+import CarruselBlog from "./CarruselBlog";
+import Newsletter from "./Newsletter";
 
 export default function ItemListContainer({greeting}) {
     return (
-        <Container className="heroContainer" maxWidth="xl" styles={{ backgroundImage:`url(${HeroImage})` }}>
-            <Box className="textContainer">
-                <Typography variant="h1" color="initial" sx={{color: '#FF4C3B', fontSize: 100, textTransform: 'uppercase'}}>
-                    {greeting}
-                </Typography>
-            </Box>
-        </Container>
+        <>
+            <Hero />
+            <BannerPri />
+            <PrincipalTitle />
+            <CarruselProducts/>
+            <ParallaxBanner />
+            <SpecialProducts />
+            <ServiceBanner />
+            <SectionBlog />
+            <CarruselBlog />
+            <Newsletter />
+        </>
     );
 }
