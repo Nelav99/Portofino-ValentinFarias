@@ -17,7 +17,7 @@ This is my final project for the [CoderHouse React Js Course](https://www.coderh
 
 ### Screenshot:
 
-![](./src/assets/img/logo/screenPage.jpg)
+![](./src/assets/img/logo/screenPage.jpeg)
 
 **Full Page Screen:**
 
