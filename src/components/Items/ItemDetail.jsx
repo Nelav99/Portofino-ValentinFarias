@@ -1,27 +1,32 @@
-import { Box, Breadcrumbs, Chip, Container, Link, Rating, Skeleton, Stack, Typography } from "@mui/material";
+import { Box, Breadcrumbs, Container, Rating, Skeleton, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import ServiceBanner from "./ServiceBanner";
-import OtherProducts from "./OtherProducts";
-import Newsletter from "./Newsletter";
-import CarruselProducts from "./CarruselProducts";
+import ServiceBanner from "../HomePage/ServiceBanner";
+import OtherProducts from "../GeneralComponents/OtherProducts";
+import Newsletter from "../HomePage/Newsletter";
+import CarruselProducts from "../GeneralComponents/CarruselProducts";
 import ItemCount from "./ItemCount";
+import { Link } from "react-router-dom";
+import ModalConfirm from "./ModalConfirm";
+import { useCartContext } from '../../ContextContainer';
 
 function handleClick(event) {
     event.preventDefault();
 }
 
 export default function ItemDetail(id) {
-    const detail = id;
+    const {addItemToCart} = useCartContext();
+    const [openModal, setOpen] = React.useState(false);
+    const handleOpenModal = () => setOpen(true);
+    const handleCloseModal = () => {setOpen(false)};
+
+    let detail = id;
     const starCount = (n) => {
         setStar(n);
     }
 
-    const handleClickSize = e => {
-        // console.log(e);
-    };
-
-    function onAdd() {
-        // console.log(Quantity of items: {cont})
+    const onAdd = (quantity, size) => {
+        handleOpenModal();
+        addItemToCart(detail, quantity, size);
     }
 
     const [star, setStar] = useState(0);
@@ -30,22 +35,30 @@ export default function ItemDetail(id) {
         starCount(5);
     }, [])
 
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'auto'})
+    }, [detail])
+
     return (
         <Container className="containerDetailProduct">
             <Box className="presentation" role="presentation" onClick={handleClick}>
                 <Breadcrumbs aria-label="breadcrumb">
                     <Link underline="hover" color="inherit" to="/">
-                    HOME
+                        HOME
                     </Link>
                     <Link
-                    underline="hover"
-                    color="inherit"
-                    to="/Shop"
+                        underline="hover"
+                        color="inherit"
+                        to="/Category/Shop"
                     >
-                    PRODUCT
+                        PRODUCT
                     </Link>
-                    <Link underline="hover"
-                    color="text.primary" >{id.category}</Link>
+                    <Link
+                        underline="hover"
+                        color="text.primary"
+                    >
+                        {id.category}
+                    </Link>
                 </Breadcrumbs>
             </Box>
             <Box className="productDetail">
@@ -64,33 +77,26 @@ export default function ItemDetail(id) {
                             <Typography className="comments" variant="caption" color="initial">(21 comments)</Typography>
                         </Box>
                         <Typography className="priceDetail" variant="h3" color="initial">${detail.price}</Typography>
-                        <Box className="selectSize">
-                            <Typography variant="h6" color="initial"> Select Your Size:</Typography>
-                            <Stack direction="row" spacing={1}>
-                                <Chip label="XS" variant="outlined" onClick={handleClickSize} />
-                                <Chip label="S" variant="outlined" onClick={handleClickSize} />
-                                <Chip label="M" variant="outlined" onClick={handleClickSize} />
-                                <Chip label="L" variant="outlined" onClick={handleClickSize} />
-                                <Chip label="XL" variant="outlined" onClick={handleClickSize} />
-                                <Chip label="XXL" variant="outlined" onClick={handleClickSize} />
-                            </Stack>
-                        </Box>
-                        <ItemCount stock={5} initial={1} onAdd={onAdd}/>
+                        {
+                            openModal && <ModalConfirm open={openModal} handleClose={handleCloseModal} only={detail.only}/>
+                        }
+                        <ItemCount stock={detail.stock} initial={1} onAdd={onAdd} porductId={detail.id}/>
                         <Box className="textProductDetails">
                             <Typography variant="h5" color="initial"> Product Details:</Typography>
                             <Typography variant="body1" color="initial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis necessitatibus rerum nulla blanditiis tenetur voluptates, veniam ipsum quod dolorem distinctio esse, suscipit dolor expedita eius dolorum nemo perspiciatis vero! Officia.</Typography>
                         </Box>
+                        <Typography variant="caption" color="initial" sx={{display: 'none'}}>{detail.only}</Typography>
                     </Box>
                 </Box>}
             </Box>
             <Box className="containerOtherProducts">
-                <OtherProducts />
+                <OtherProducts only={detail.only}/>
             </Box>
             <ServiceBanner/>
-            <Container className="containerOtherProducts">
+            <Box className="containerMoreProducts">
                 <Typography variant="h3" color="initial" className="titleOtherProducts titleMoreProducts">More Products:</Typography>
-            </Container>
-            <CarruselProducts />
+                <CarruselProducts only={detail.only}/>
+            </Box>
             <Newsletter />
         </Container>
     )

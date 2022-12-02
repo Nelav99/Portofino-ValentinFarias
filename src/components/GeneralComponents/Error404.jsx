@@ -1,6 +1,6 @@
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
-import Error from '../assets/img/error404.png';
+import Error from '../../assets/img/error404.png';
 
 export default function Error404() {
     return (

@@ -2,15 +2,15 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import { Box, Link, Typography } from "@mui/material";
-import b1 from '../assets/img/blog/b1.jpg';
-import b2 from '../assets/img/blog/b2.jpg';
-import b3 from '../assets/img/blog/b3.jpg';
-import b4 from '../assets/img/blog/b4.jpg';
-import b5 from '../assets/img/blog/b5.jpg';
-import b6 from '../assets/img/blog/b6.jpg';
-import b7 from '../assets/img/blog/b7.jpg';
-import b8 from '../assets/img/blog/b8.jpg';
-import b9 from '../assets/img/blog/b9.jpg';
+import b1 from '../../assets/img/blog/b1.jpg';
+import b2 from '../../assets/img/blog/b2.jpg';
+import b3 from '../../assets/img/blog/b3.jpg';
+import b4 from '../../assets/img/blog/b4.jpg';
+import b5 from '../../assets/img/blog/b5.jpg';
+import b6 from '../../assets/img/blog/b6.jpg';
+import b7 from '../../assets/img/blog/b7.jpg';
+import b8 from '../../assets/img/blog/b8.jpg';
+import b9 from '../../assets/img/blog/b9.jpg';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -36,7 +36,7 @@ export default function CarruselBlog() {
                 <Box className="blog-details">
                     <Typography variant="h4" color="initial">The Cotton-Jersey Zip-Up Hoodie</Typography>
                     <Typography variant="subtitle1" color="initial">Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</Typography>
-                    <Link href="/Blog">CONTINUE READING</Link>
+                    <Link href='/Category/Blog' style={{cursor: 'pointer'}}>CONTINUE READING</Link>
                 </Box>
             </SwiperSlide>
             <SwiperSlide className="blog-box">
@@ -46,7 +46,7 @@ export default function CarruselBlog() {
                 <Box className="blog-details">
                     <Typography variant="h4" color="initial">Best Fragrances For Men</Typography>
                     <Typography variant="subtitle1" color="initial">Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</Typography>
-                    <Link href="/Blog">CONTINUE READING</Link>
+                    <Link href='/Category/Blog' style={{cursor: 'pointer'}}>CONTINUE READING</Link>
                 </Box>
             </SwiperSlide>
             <SwiperSlide className="blog-box">
@@ -56,7 +56,7 @@ export default function CarruselBlog() {
                 <Box className="blog-details">
                     <Typography variant="h4" color="initial">Must-Have Skater Men Items</Typography>
                     <Typography variant="subtitle1" color="initial">Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</Typography>
-                    <Link href="/Blog">CONTINUE READING</Link>
+                    <Link href='/Category/Blog' style={{cursor: 'pointer'}}>CONTINUE READING</Link>
                 </Box>
             </SwiperSlide>
             <SwiperSlide className="blog-box">
@@ -66,7 +66,7 @@ export default function CarruselBlog() {
                 <Box className="blog-details">
                     <Typography variant="h4" color="initial">Fashion Bites: looks of streetstyle de Maje</Typography>
                     <Typography variant="subtitle1" color="initial">Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</Typography>
-                    <Link href="/Blog">CONTINUE READING</Link>
+                    <Link href='/Category/Blog' style={{cursor: 'pointer'}}>CONTINUE READING</Link>
                 </Box>
             </SwiperSlide>
             <SwiperSlide className="blog-box">
@@ -76,7 +76,7 @@ export default function CarruselBlog() {
                 <Box className="blog-details">
                     <Typography variant="h4" color="initial">5 steps to your wardrobe change</Typography>
                     <Typography variant="subtitle1" color="initial">Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</Typography>
-                    <Link href="/Blog">CONTINUE READING</Link>
+                    <Link href='/Category/Blog' style={{cursor: 'pointer'}}>CONTINUE READING</Link>
                 </Box>
             </SwiperSlide>
             <SwiperSlide className="blog-box">
@@ -86,7 +86,7 @@ export default function CarruselBlog() {
                 <Box className="blog-details">
                     <Typography variant="h4" color="initial">Fashion trends worth trying this autumn/winter</Typography>
                     <Typography variant="subtitle1" color="initial">Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</Typography>
-                    <Link href="/Blog">CONTINUE READING</Link>
+                    <Link href='/Category/Blog' style={{cursor: 'pointer'}}>CONTINUE READING</Link>
                 </Box>
             </SwiperSlide>
             <SwiperSlide className="blog-box">
@@ -96,7 +96,7 @@ export default function CarruselBlog() {
                 <Box className="blog-details">
                     <Typography variant="h4" color="initial">Autumn/ 2022 trends for men</Typography>
                     <Typography variant="subtitle1" color="initial">Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</Typography>
-                    <Link href="/Blog">CONTINUE READING</Link>
+                    <Link href='/Category/Blog' style={{cursor: 'pointer'}}>CONTINUE READING</Link>
                 </Box>
             </SwiperSlide>
             <SwiperSlide className="blog-box">
@@ -106,7 +106,7 @@ export default function CarruselBlog() {
                 <Box className="blog-details">
                     <Typography variant="h4" color="initial">Best Combinations Accessories For Men's</Typography>
                     <Typography variant="subtitle1" color="initial">Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</Typography>
-                    <Link href="/Blog">CONTINUE READING</Link>
+                    <Link href='/Category/Blog' style={{cursor: 'pointer'}}>CONTINUE READING</Link>
                 </Box>
             </SwiperSlide>
             <SwiperSlide className="blog-box">
@@ -116,7 +116,7 @@ export default function CarruselBlog() {
                 <Box className="blog-details">
                     <Typography variant="h4" color="initial">What I leave the fashion of spring/summer</Typography>
                     <Typography variant="subtitle1" color="initial">Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...</Typography>
-                    <Link href="/Blog">CONTINUE READING</Link>
+                    <Link href='/Category/Blog' style={{cursor: 'pointer'}}>CONTINUE READING</Link>
                 </Box>
             </SwiperSlide>
         </Swiper>

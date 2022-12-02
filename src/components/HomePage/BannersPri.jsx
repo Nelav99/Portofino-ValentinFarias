@@ -1,7 +1,7 @@
 import { Container, Box, Typography } from "@mui/material";
 import React from "react";
-import Banner1 from '../assets/img/banner/banner1.jpg'
-import Banner2 from '../assets/img/banner/banner2.jpg'
+import Banner1 from '../../assets/img/banner/banner1.jpg';
+import Banner2 from '../../assets/img/banner/banner2.jpg';
 
 export default function BannerPri() {
     return (

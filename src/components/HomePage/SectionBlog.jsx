@@ -3,7 +3,7 @@ import React from "react";
 
 export default function SectionBlog() {
     return (
-        <Container className="containerSpecialProducts">
+        <Container className="containerSpecialProducts blogTitles">
             <Box className="container containerOffPadding">
                 <Box className="title">
                     <Typography variant="h4" color="initial" className="subtitle">Our Tips</Typography>
