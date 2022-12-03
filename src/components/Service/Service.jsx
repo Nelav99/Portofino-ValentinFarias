@@ -30,7 +30,7 @@ export default function Service({only, start, end}) {
                         {
                             Products.map((item, i) => {
                                 return (
-                                    <Box className="pro" key={i}>
+                                    <Box className="pro" id={'num' + i} key={i}>
                                         <Item key={i} id={item.id} name={item.name} image={item.image} price={item.price} only={item.for}/>
                                     </Box>
                                 )

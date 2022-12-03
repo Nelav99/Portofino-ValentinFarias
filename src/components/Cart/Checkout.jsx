@@ -118,10 +118,10 @@ export default function Checkout() {
                                     <Box className='containerTableProducts' sx={{width: '100%'}}>
                                         <Box className='tableProducts'>
                                             <Box className='productContainerTop' sx={{fontSize: '13px', color: '#999', backgroundColor: '#f7f7f7', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', height: '40px'}}>
-                                                <Box sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '356px', lineHeight: 1.5}}>Product</Box>
-                                                <Box sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '144px', lineHeight: 1.5}}>ID</Box>
-                                                <Box sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '144px', lineHeight: 1.5}}>Quantity</Box>
-                                                <Box sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '144px', lineHeight: 1.5}}>Unit Price</Box>
+                                                <Box className='tableTopProduct' sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '356px', lineHeight: 1.5}}>Product</Box>
+                                                <Box className='tableTopId' sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '144px', lineHeight: 1.5}}>ID</Box>
+                                                <Box className='tableTopQuantity' sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '144px', lineHeight: 1.5}}>Quantity</Box>
+                                                <Box className='tableTopUnitPrice' sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '144px', lineHeight: 1.5}}>Unit Price</Box>
                                             </Box>
                                             <Box className='shopCartProducts'>
                                                 <Box sx={{border: 'none'}}>

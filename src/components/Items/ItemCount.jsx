@@ -87,6 +87,7 @@ export default function ItemCount({stock, initial, onAdd, porductId}) {
             }
         }
         setCount(1)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [Cart])
 
     return (

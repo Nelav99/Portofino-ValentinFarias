@@ -5,6 +5,7 @@ This is my final project for the [CoderHouse React Js Course](https://www.coderh
 ## Table of contents:
 
 - [Overview](#overview)
+  - [Description](#description)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -15,17 +16,32 @@ This is my final project for the [CoderHouse React Js Course](https://www.coderh
 
 ## Overview:
 
+### Description:
+
+The application represents a fictitious e-commerce, in which we can navigate through the main route (home) where the available products are displayed, as well as take other routes from the navigation bar.
+
+When selecting a product you can see its details, as well as select the size and add to the cart the quantity that the user wants, as long as the available stock is not exceeded.
+
+Once the product has been added to the shopping cart, you can continue to add more products from the same or another category, or checkout to see the products you have added to the shopping cart.
+
+To finish the purchase process, the user must go to the cart. In this you will find a summary of the selected products, the quantity chosen, the size, the unit price, subtotal per product and the total purchase.
+At this point you have the option to delete an unwanted product, delete the entire cart or continue with the purchase.
+
+If you decide to continue with the purchase process, you must press the "Proceed to checkout" button. The user must complete the registration form, to later go to the checkout where a brief summary is shown with the data entered by the user, the description of the chosen products and the total purchase.
+Once the purchase is confirmed, a modal will open with a purchase order number and the user will be directed to the home again.
+
 ### Screenshot:
 
 ![](./src/assets/img/logo/screenPage.jpeg)
 
 **Full Page Screen:**
 
-![](./src/assets/img/logo/screenPortoPage.jpeg)
+![](./src/assets/img/logo/fullScreenPortofino.jpeg)
 
 ### Links:
 
 - Solution URL: [Repository](https://github.com/Nelav99/Portofino-ValentinFarias.git)
+- Deploy: [Link]()
 
 ## My process:
 
@@ -67,5 +83,4 @@ I will continue working to perfect my skills in HTML, CSS, Javascript and React 
 ## Author:
 
 - Website - [GitHub](https://github.com/Nelav99)
-- Frontend Mentor - [@Nelav99](https://www.frontendmentor.io/profile/Nelav99)
 - Linkedin - [Profile](https://www.linkedin.com/in/valent%C3%ADn-far%C3%ADas-aa0282147)
