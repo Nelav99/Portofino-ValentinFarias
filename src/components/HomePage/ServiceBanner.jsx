@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ServiceBanner() {
     return (
-        <Container className="container">
+        <Container className="container containerServiceBanner">
             <Box className="borderSection">
                 <Box className="row">
                     <Box className="serviceBlock">

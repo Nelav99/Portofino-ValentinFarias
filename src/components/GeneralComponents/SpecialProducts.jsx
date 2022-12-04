@@ -51,25 +51,25 @@ export default function SpecialProducts() {
         </Box>
         <Box className="sectionsTab">
           <Box className="containerTabs">
-            <Tabs value={value} onChange={handleChange}>
+            <Tabs className="subContainerTabs" value={value} onChange={handleChange}>
               <Tab label="NEW ARRIVALS" {...a11yProps(0)} />
               <Tab label="FEATURES" {...a11yProps(1)} />
               <Tab label="SPECIAL" {...a11yProps(2)} />
             </Tabs>
           </Box>
-          <TabPanel value={value} index={0}>
+          <TabPanel className="containerTabPanel" value={value} index={0}>
             <Service only={"men"} start={0} end={4}/>
             <Service only={"women"} start={0} end={4}/>
             <Service only={"men"} start={5} end={9}/>
             <Service only={"women"} start={5} end={9}/>
           </TabPanel>
-          <TabPanel value={value} index={1}>
+          <TabPanel className="containerTabPanel" value={value} index={1}>
             <Service only={"men"} start={10} end={14}/>
             <Service only={"women"} start={10} end={14}/>
             <Service only={"men"} start={15} end={19}/>
             <Service only={"women"} start={15} end={19}/>
           </TabPanel>
-          <TabPanel value={value} index={2}>
+          <TabPanel className="containerTabPanel" value={value} index={2}>
             <Service only={"men"} start={19} end={23}/>
             <Service only={"women"} start={17} end={21}/>
             <Service only={"men"} start={24} end={28}/>

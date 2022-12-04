@@ -79,9 +79,9 @@ export default function Navbar() {
         >
             <Box className='containerHeader' sx={{ width: '100%' }}>
                 <Box className='containerTabs'>
-                    <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-                        <Tab sx={{width: '140px', margin: '0 13px', fontSize: '18px', fontWeight: 500, textTransform: 'capitalize', letterSpacing: 'normal', display: 'flex', flex: '1 0 auto', justifyContent: 'center', lineHeight: 'normal', p: 0, textAlign: 'center', color: '#666', cursor: 'pointer',}} label="Women" {...a11yProps(0)} />
-                        <Tab sx={{width: '140px', margin: '0 13px', fontSize: '18px', fontWeight: 500, textTransform: 'capitalize', letterSpacing: 'normal', display: 'flex', flex: '1 0 auto', justifyContent: 'center', lineHeight: 'normal', p: 0, textAlign: 'center', color: '#666', cursor: 'pointer',}} label="Men" {...a11yProps(1)} />
+                    <Tabs className='subContainerTabs' value={value} onChange={handleChange}>
+                        <Tab className='tabMenuMobile' sx={{width: '140px', margin: '0 13px', fontSize: '18px', fontWeight: 500, textTransform: 'capitalize', letterSpacing: 'normal', display: 'flex', flex: '1 0 auto', justifyContent: 'center', lineHeight: 'normal', p: 0, textAlign: 'center', color: '#666', cursor: 'pointer',}} label="Women" {...a11yProps(0)} />
+                        <Tab className='tabMenuMobile' sx={{width: '140px', margin: '0 13px', fontSize: '18px', fontWeight: 500, textTransform: 'capitalize', letterSpacing: 'normal', display: 'flex', flex: '1 0 auto', justifyContent: 'center', lineHeight: 'normal', p: 0, textAlign: 'center', color: '#666', cursor: 'pointer',}} label="Men" {...a11yProps(1)} />
                     </Tabs>
                 </Box>
                 <TabPanel className='containerPanels' value={value} index={0}>
@@ -202,7 +202,7 @@ export default function Navbar() {
 
     return (
         <>
-            <AppBar position="static">
+            <AppBar className='navbarHeader' position="static">
                 <Container max-width="xl" sx={{ flexGrow: 2, display: { xs: 'none', md: 'flex', }}} className="topHeader space-1">
                     <div className='container'>
                         <div className='row'>
@@ -227,9 +227,9 @@ export default function Navbar() {
                         </div>
                     </div>
                 </Container>
-                <Container maxWidth="xl" sx={{bgcolor: '#fff'}} className="container">
-                    <Toolbar disableGutters className='row' sx={{bgcolor: '#fff'}}>
-                        <Box className='col'>
+                <Container maxWidth="xl" sx={{bgcolor: '#fff'}} className="container principalNavBar">
+                    <Toolbar disableGutters className='row subContainerPrincipalNavBar' sx={{bgcolor: '#fff'}}>
+                        <Box className='col columnPrincipalNavBar'>
                             <Box className='mainMenu'>
                                 <Box className='menuLeft'>
                                     <div className='brandLogo'>
@@ -278,7 +278,7 @@ export default function Navbar() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div>
+                                    <div className='iconsNavBar'>
                                         <CartWidgets Amount={Amount}/>
                                     </div>
                                 </Box>
@@ -287,7 +287,7 @@ export default function Navbar() {
                     </Toolbar>
                 </Container>
                 <Container maxWidth="xl" sx={{bgcolor: '#fff'}} className="container menuMobile">
-                    <Toolbar disableGutters className='row' sx={{bgcolor: '#fff'}}>
+                    <Toolbar disableGutters className='row subcontainerMenuMobile' sx={{bgcolor: '#fff'}}>
                         <Box className='col'>
                             <Box className='mainMenu'>
                                 <Box className='menuLeft'>

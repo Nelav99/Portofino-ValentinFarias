@@ -42,7 +42,7 @@ export default function ItemDetail(id) {
     return (
         <Container className="containerDetailProduct">
             <Box className="presentation" role="presentation" onClick={handleClick}>
-                <Breadcrumbs aria-label="breadcrumb">
+                <Breadcrumbs aria-label="breadcrumb" className="containerBreadcrumb">
                     <Link underline="hover" color="inherit" to="/">
                         HOME
                     </Link>

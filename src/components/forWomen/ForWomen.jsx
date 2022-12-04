@@ -36,7 +36,7 @@ export default function ForWomen() {
             <Container className="containerCategorysMobile" sx={{textAlign: 'center', padding: '0 20px', marginBottom: '20px'}}>
                 <Box className="categorysForMen">
                     <Box className="swiperSlide" sx={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Tops'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124040853_235.jpg.webp" alt="Outwear" />
@@ -44,7 +44,7 @@ export default function ForWomen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Bottoms'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124040927_964.jpg.webp" alt="Tops" />
@@ -52,7 +52,7 @@ export default function ForWomen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Pants'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041035_495.jpg.webp" alt="Dresses" />
@@ -60,7 +60,7 @@ export default function ForWomen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/TwoPieces'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202212/20221202003942_522.jpg.webp" alt="Plus Size" />
@@ -68,7 +68,7 @@ export default function ForWomen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Shoes'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041152_560.jpg.webp" alt="Hoodies" />
@@ -76,7 +76,7 @@ export default function ForWomen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Shoes'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041303_224.jpg.webp" alt="Shoes" />
@@ -84,7 +84,7 @@ export default function ForWomen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Bags'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041335_482.jpg.webp" alt="Bags" />
@@ -92,7 +92,7 @@ export default function ForWomen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Accesories'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041228_697.jpg.webp" alt="Accesories" />
@@ -107,42 +107,42 @@ export default function ForWomen() {
                 <Box className="categorysForMen">
                     <Typography variant="h3" color="initial" className="titleCategorys">Shop By Category</Typography>
                     <Box className="swiperSlide" sx={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForWomen/Tops'}>
                                     <img className="imageSizeCategorys" src={Tops} alt="Tops" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForWomen/Bottoms'}>
                                     <img className="imageSizeCategorys" src={Bottoms} alt="Bottoms" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForWomen/PlusSize'}>
                                     <img className="imageSizeCategorys" src={PlusSize} alt="PlusSize" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForWomen/Bags'}>
                                     <img className="imageSizeCategorys" src={Bags} alt="Bags" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForWomen/Dresses'}>
                                     <img className="imageSizeCategorys" src={Dresses} alt="Dresses" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForWomen/Shoes'}>
                                     <img className="imageSizeCategorys" src={Shoes} alt="Shoes" />

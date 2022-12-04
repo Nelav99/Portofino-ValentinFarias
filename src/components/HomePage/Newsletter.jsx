@@ -9,7 +9,7 @@ export default function Newsletter() {
                 <Box className="borderSection borderNewsletter">
                     <Box className="row">
                         <Box className="col">
-                            <Box className="description">
+                            <Box className="description descriptionNewsletter">
                                 <Box>
                                     <Typography variant="h4" color="initial">KNOW IT ALL FIRST!</Typography>
                                     <Typography variant="subtitle2" color="initial"> Never Miss Anything From Portofino By Signing Up To Our Newsletter.</Typography>

@@ -33,7 +33,7 @@ export default function ForMen() {
             <Container className="containerCategorysMobile" sx={{textAlign: 'center', padding: '0 20px', marginBottom: '20px'}}>
                 <Box className="categorysForMen">
                     <Box className="swiperSlide" sx={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Tops'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221123020321_431.jpg.webp" alt="Tops" />
@@ -41,7 +41,7 @@ export default function ForMen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Bottoms'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221123020300_279.jpg.webp" alt="Bottoms" />
@@ -49,7 +49,7 @@ export default function ForMen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Pants'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221123020247_803.jpg.webp" alt="Pants" />
@@ -57,7 +57,7 @@ export default function ForMen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/TwoPieces'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221123020217_283.jpg.webp" alt="TwoPieces" />
@@ -65,7 +65,7 @@ export default function ForMen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Shoes'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221123023609_912.jpg.webp" alt="Hoodies" />
@@ -73,7 +73,7 @@ export default function ForMen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Shoes'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221123023626_396.jpg.webp" alt="Shoes" />
@@ -81,7 +81,7 @@ export default function ForMen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Bags'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221123023639_754.jpg.webp" alt="Bags" />
@@ -89,7 +89,7 @@ export default function ForMen() {
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Accesories'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221123023648_173.jpg.webp" alt="Accesories" />
@@ -97,7 +97,6 @@ export default function ForMen() {
                                 </Link>
                             </Box>
                         </Box>
-                        
                     </Box>
                 </Box>
             </Container>
@@ -105,42 +104,42 @@ export default function ForMen() {
                 <Box className="categorysForMen" sx={{width: '100%'}}>
                     <Typography variant="h3" color="initial" className="titleCategorys">Shop By Category</Typography>
                     <Box className="swiperSlide" sx={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Tops'}>
                                     <img className="imageSizeCategorys" src={Tops} alt="Tops" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Bottoms'}>
                                     <img className="imageSizeCategorys" src={Bottoms} alt="Bottoms" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/TwoPieces'}>
                                     <img className="imageSizeCategorys" src={TwoPieces} alt="TwoPieces" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Bags'}>
                                     <img className="imageSizeCategorys" src={Bags} alt="Bags" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Accesories'}>
                                     <img className="imageSizeCategorys" src={Accesories} alt="Accesories" />
                                 </Link>
                             </Box>
                         </Box>
-                        <Box className="containerCategorys" sx={{width: '216px'}}>
+                        <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
                                 <Link to={'/Category/ForMen/Shoes'}>
                                     <img className="imageSizeCategorys" src={Shoes} alt="Shoes" />

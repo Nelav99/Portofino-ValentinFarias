@@ -22,7 +22,7 @@ export default function CartWidgets({Amount}) {
                         </IconButton>
                 </li>
                 <li className="onhoverDiv mobileCart">
-                    <div className="cart-qty-cls">{Amount}</div>
+                    <div className="cartQuantity">{Amount}</div>
                     <IconButton>
                         <Link to={'./Cart'}>
                             <ShoppingCartOutlinedIcon />

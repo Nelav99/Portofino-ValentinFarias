@@ -94,7 +94,7 @@ export default function ItemCount({stock, initial, onAdd, porductId}) {
         <>
             <Box className="selectSize">
                 <Typography variant="h6" color="initial"> Select Your Size:</Typography>
-                <ToggleButtonGroup direction="row" value={selected} exclusive onChange={handleSelected}>
+                <ToggleButtonGroup className='toggleBtnContainer' direction="row" value={selected} exclusive onChange={handleSelected}>
                     <ToggleButton className='chipSize' value="XS" onClick={() => selectSize('XS')}>XS</ToggleButton>
                     <ToggleButton className='chipSize' value="S" aria-label="S" onClick={() => selectSize('S')}>S</ToggleButton>
                     <ToggleButton className='chipSize' value="M" aria-label="M" onClick={() => selectSize('M')}>M</ToggleButton>

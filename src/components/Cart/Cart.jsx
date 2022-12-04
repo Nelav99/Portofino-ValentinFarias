@@ -519,9 +519,9 @@ export default function Cart() {
                                 <Box className='containerBottomTable' sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', borderBottom: '1px solid #e5e5e5', height: '46px'}}>
                                     <Box className='containerCheckbox' sx={{margin: '0 -8px', position:'relative', display: 'flex', flexWrap: 'wrap', alignItems: 'stretch', width: 'auto'}}>
                                         <Box sx={{display: 'flex', alignItems: 'center', padding: '0 6px', cursor: 'pointer', fontSize: '14px', lineHeight: '1.5', color: '#333'}}>
-                                            <Box sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', flex: ' 0 0 auto', maxWidth: '100%'}}>
+                                            <Box className='checkboxSelectAll' sx={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', flex: ' 0 0 auto', maxWidth: '100%'}}>
                                                 <Checkbox />
-                                                <Box sx={{fontSize: '13px', lineHeight: 1.5, color: '#333', cursor: 'pointer', display: 'flex', flexWrap: 'wrap', alignItems: 'center', margin: '0 4px'}}>
+                                                <Box className='selectAll' sx={{fontSize: '13px', lineHeight: 1.5, color: '#333', cursor: 'pointer', display: 'flex', flexWrap: 'wrap', alignItems: 'center', margin: '0 4px'}}>
                                                     Select all
                                                 </Box>
                                             </Box>
