@@ -751,7 +751,7 @@ svg {
   }
 
   #product1 .pro #btnOpenPopUp a {
-      padding: 15px;
+      padding: 10px !important;
       width: 60%;
       height: 100%;
       border: 1px solid var(--theme-deafult);
@@ -1440,6 +1440,7 @@ form.subscribeForm button:hover {
     text-align: center;
     padding: 0 20px;
     margin-bottom: 48px;
+    max-width: 100% !important;
   }
 
   .containerCategorys h3.titleCategorys {
@@ -2234,6 +2235,7 @@ form.subscribeForm button:hover {
 
     #product1 #containerProd #cards {
       width: 100%;
+      padding-top: 0;
     }
   /* you may also like end */
   /* Register User Start */
@@ -2351,7 +2353,7 @@ form.subscribeForm button:hover {
   .containerCategorysMobile {
     display: flex !important;
     padding: 0 4px 20px !important;
-    margin: 0;
+    margin: 0 !important;
   }
 
   /* Categorys For Men Start */
@@ -3191,7 +3193,7 @@ form.subscribeForm button:hover {
   .containerCategorysMobile {
     display: block !important;
     padding: 0 4px 20px !important;
-    margin: 0;
+    margin: 0 !important;
   }
 
   /* Categoryes For Men Start */

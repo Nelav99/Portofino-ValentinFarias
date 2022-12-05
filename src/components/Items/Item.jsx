@@ -30,7 +30,7 @@ export default function Item({id, name, image, price, only}){
                         {only}
                 </Typography>
             </Box>
-            <Link to={'/Item/' + id} className="normal viewDetails MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium normal viewDetails css-1e6y48t-MuiButtonBase-root-MuiButton-root">Add To Cart</Link>
+            <Link to={'/Item/' + id} className="normal viewDetails">Add To Cart</Link>
         </Box>
     );
 }
