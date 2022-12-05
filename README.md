@@ -41,13 +41,13 @@ Once the purchase is confirmed, a modal will open with a purchase order number a
 ### Links:
 
 - Solution URL: [Repository](https://github.com/Nelav99/Portofino-ValentinFarias.git)
-- Deploy: [Link]()
+- Deploy: [Link](https://portofino-valentin-farias.vercel.app/)
 
 ## My process:
 
 ### Built with:
 
-- CSS
+- CSS (Responsive Design)
 - Javascript (JSX)
 - React Js
   - Components
