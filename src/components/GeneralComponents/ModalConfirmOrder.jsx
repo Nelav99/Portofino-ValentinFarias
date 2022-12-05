@@ -29,7 +29,7 @@ export default function ModalConfirmOrder({open, handleClose, clear, idOrder}) {
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
-                sx={{transition: 'opacity 0.15s linear', position: 'fixed', top: '0', left: '0', width: '100%', height: '100%', outline: '0', overflowX: 'hidden', overflowY: 'auto', zIndex: '1060', display: 'block'}}
+                sx={{transition: 'opacity 0.15s linear', position: 'fixed', top: '0', left: '0', width: '100%', height: '100%', outline: '0', overflowX: 'hidden', overflowY: 'auto', zIndex: '1060', display: 'block', margin: {sx: '0 10px'}, }}
             >
                 <Box className='modalDialogue' sx={{position: 'relative', maxWidth: '508px', margin: '20px auto', display: 'flex', alignItems: 'center', minHeight: 'calc(100% - (20px * 2))', transition: 'transform 0.3s ease-out,-webkit-transform 0.3s ease-out', transform: 'none'}}>
                     <Box className='modalContent' sx={style}>

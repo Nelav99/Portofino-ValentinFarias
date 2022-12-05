@@ -93,14 +93,33 @@ color: #088178;
 }
 
 .containerCarruselProducts .pro #btnOpenPopUp a {
-    padding: 15px;
-    width: 60%;
-    height: 100%;
     border: 1px solid var(--theme-deafult);
     color: var(--theme-deafult);
-    line-height: 10px;
+    height: 100%;
     text-transform: uppercase;
-}
+    width: 60%;
+    display: inline-flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: 0;
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}
 
 .containerCarruselProducts .pro #btnOpenPopUp a:hover {
     color: #fff;
@@ -164,7 +183,13 @@ color: #088178;
     padding: 10px;
 }
 
-h6.MuiTypography-root.MuiTypography-subtitle1.css-a1h9mz-MuiTypography-root {
+#blog .blog-details h4 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#blog .blog-details h6 {
     padding: 10px 0;
 }
 
@@ -178,6 +203,7 @@ h6.MuiTypography-root.MuiTypography-subtitle1.css-a1h9mz-MuiTypography-root {
     padding: 10px;
     position: absolute;
     left: 65px;
+    margin-top: 10px;
 }
 
 #blog .blog-details a:hover {

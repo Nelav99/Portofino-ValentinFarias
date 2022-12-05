@@ -26,7 +26,7 @@ export default function ForWomen() {
                 <Link className="bannerForMen" to={'/Category/ForWomen/Sale'}>
                     <img src={BgBannerPrincipal} alt="Super Sale 85%" className="bannerSuperSaleForMen" />
                 </Link>
-                <Link className="bannerForMenMobile" to={'/Category/ForMen/Sale'}>
+                <Link className="bannerForMenMobile" to={'/Category/ForWomen/Sale'}>
                     <img src="https://imgaz1.chiccdn.com/os/202211/20221126001419_279.jpg.webp" alt="Super Sale 85%" className="bannerSuperSaleForMen" />
                 </Link>
                 <Link className="bannerForMen" to={'/Category/ForWomen/Sale'}>
@@ -38,7 +38,7 @@ export default function ForWomen() {
                     <Box className="swiperSlide" sx={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
                         <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
-                                <Link to={'/Category/ForMen/Tops'}>
+                                <Link to={'/Category/ForWomen/Tops'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124040853_235.jpg.webp" alt="Outwear" />
                                     <Typography className="textCategory" variant="body2" color="initial">Outwear</Typography>
                                 </Link>
@@ -46,7 +46,7 @@ export default function ForWomen() {
                         </Box>
                         <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
-                                <Link to={'/Category/ForMen/Bottoms'}>
+                                <Link to={'/Category/ForWomen/Bottoms'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124040927_964.jpg.webp" alt="Tops" />
                                     <Typography className="textCategory" variant="body2" color="initial">Tops</Typography>
                                 </Link>
@@ -54,7 +54,7 @@ export default function ForWomen() {
                         </Box>
                         <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
-                                <Link to={'/Category/ForMen/Pants'}>
+                                <Link to={'/Category/ForWomen/Pants'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041035_495.jpg.webp" alt="Dresses" />
                                     <Typography className="textCategory" variant="body2" color="initial">Dresses</Typography>
                                 </Link>
@@ -62,7 +62,7 @@ export default function ForWomen() {
                         </Box>
                         <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
-                                <Link to={'/Category/ForMen/TwoPieces'}>
+                                <Link to={'/Category/ForWomen/TwoPieces'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202212/20221202003942_522.jpg.webp" alt="Plus Size" />
                                     <Typography className="textCategory overflowCategory" variant="body2" color="initial">Plus Size</Typography>
                                 </Link>
@@ -70,7 +70,7 @@ export default function ForWomen() {
                         </Box>
                         <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
-                                <Link to={'/Category/ForMen/Shoes'}>
+                                <Link to={'/Category/ForWomen/Shoes'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041152_560.jpg.webp" alt="Hoodies" />
                                     <Typography className="textCategory" variant="body2" color="initial">Hoodies</Typography>
                                 </Link>
@@ -78,7 +78,7 @@ export default function ForWomen() {
                         </Box>
                         <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
-                                <Link to={'/Category/ForMen/Shoes'}>
+                                <Link to={'/Category/ForWomen/Shoes'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041303_224.jpg.webp" alt="Shoes" />
                                     <Typography className="textCategory" variant="body2" color="initial">Shoes</Typography>
                                 </Link>
@@ -86,7 +86,7 @@ export default function ForWomen() {
                         </Box>
                         <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
-                                <Link to={'/Category/ForMen/Bags'}>
+                                <Link to={'/Category/ForWomen/Bags'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041335_482.jpg.webp" alt="Bags" />
                                     <Typography className="textCategory" variant="body2" color="initial">Bags</Typography>
                                 </Link>
@@ -94,7 +94,7 @@ export default function ForWomen() {
                         </Box>
                         <Box className="containerCategorysIndividual" sx={{width: '216px'}}>
                             <Box className="padding">
-                                <Link to={'/Category/ForMen/Accesories'}>
+                                <Link to={'/Category/ForWomen/Accesories'}>
                                     <img className="imageSizeCategorys" src="https://imgaz1.chiccdn.com/os/202211/20221124041228_697.jpg.webp" alt="Accesories" />
                                     <Typography className="textCategory overflowCategory" variant="body2" color="initial">Accesories</Typography>
                                 </Link>

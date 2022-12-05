@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <Container>
+        <Container className="footerContainer">
             <footer className="section-p1">
                 <Box className="logoFooter">
                     <img src={Logo} alt="Logo Malmo" className="logo" />

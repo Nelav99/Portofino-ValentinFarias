@@ -151,8 +151,8 @@ export default function Checkout() {
                                                                                         </Box>
                                                                                     </Box>
                                                                                 </Box>
-                                                                                <Box className='containerUnitPrice' sx={{display: 'flex', flexWrap: 'wrap', flexDirection: 'column', alignItems: 'center', width: '144px', overflow: 'hidden', paddingTop: '30px'}}>
-                                                                                    <Box className='productPrice' sx={{direction: 'ltr', display: 'inline-block', fontSize: '16px', lineHeight: 1.5, letterSpacing: '.8px'}}>
+                                                                                <Box className='containerUnitPrice' sx={{display: 'flex', flexWrap: 'wrap', flexDirection: 'column', alignItems: 'center', width: '144px', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', paddingTop: '30px'}}>
+                                                                                    <Box className='productPrice' sx={{direction: 'ltr', display: 'inline-block', fontSize: '16px', lineHeight: 1.5, letterSpacing: '.8px', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis'}}>
                                                                                         {product.id}
                                                                                     </Box>
                                                                                 </Box>
@@ -230,8 +230,8 @@ export default function Checkout() {
                         </Box>
                     </Box>
                     <Box className='containerOrder' style={{width: '100%', margin: '0 auto', padding: '0 12px', marginTop: '32px'}} >
-                        <Box sx={{display: 'flex', flexWrap: 'wrap', margin: '0 -8px', paddingBottom: '33px'}}>
-                            <Box sx={{flex: '1 1 0', maxWidth: '100%', margin: '0 8px'}}>
+                        <Box className='subContainerOrder' sx={{display: 'flex', flexWrap: 'wrap', margin: '0 -8px', paddingBottom: '33px'}}>
+                            <Box className='containerOrderDetails' sx={{flex: '1 1 0', maxWidth: '100%', margin: '0 8px'}}>
                                 <Box className='orderDetails' sx={{backgroundColor: '#fff', marginBottom: '16px', padding: '16px 25px', boxShadow: '0px 10px 25px rgb(0 0 0 / 15%)'}}>
                                     <Box className='orderHeader' sx={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #e6e6e6'}}>
                                         <ul style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'flex-start', listStyle: 'none', m: 0, p: 0}}>

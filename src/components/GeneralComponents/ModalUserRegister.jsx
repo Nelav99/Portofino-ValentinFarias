@@ -115,7 +115,7 @@ export default function ModalUserRegister({open, handleClose}) {
                             flex: '1 1 auto',
                             padding: '0 12px 12px',
                             height: '100%'}}>
-                            <Box sx={{flex: '0 0 auto', maxWidht: '100%'}}>
+                            <Box className='subContainerModalBody' sx={{flex: '0 0 auto', maxWidht: '100%'}}>
                                 <Box className='singUpContainer' sx={{width: '485px', padding: '0 73px'}}>
                                     <Box className='titleRegister' sx={{alignItems: 'center', paddingTop: '12px', paddingBottom: '12px', display: 'inline-flex !important', minWidht: '100%'}}>
                                         <Typography variant="caption" color="#000" sx={{fontSize: '32px', fontWeight: 'bold', lineHeight: '1.5'}}>Register</Typography>
@@ -284,7 +284,7 @@ export default function ModalUserRegister({open, handleClose}) {
                                         </Box>
                                         <Box className='checkboxTerms' sx={{paddingTop: '8px', display: 'block !important', position: 'relative', flex: 'wrap', alignItems: 'stretch', width: '100%'}}>
                                             <Box sx={{flex: '1 1 0', maxWidht: '100%', margin: '0 -4px', padding: '0 4px', display: 'flex', alignItems: 'center', cursor: 'pointer'}}>
-                                                <Box sx={{display: 'flex', flexWrap: 'nowrap', alignItems: 'center', flex: '1 1 0', maxWidth: '100%'}}>
+                                                <Box className='containerCheckbox' sx={{display: 'flex', flexWrap: 'nowrap', alignItems: 'center', flex: '1 1 0', maxWidth: '100%'}}>
                                                     <Checkbox required sx={{margin: 0, width: '16px', height: '16px', maxWidth: '100%', flex: '0 0 auto' }}/>
                                                     <Box sx={{fontSize: '12px', color: '#999', flex: '1 1 0', maxWidth: '100%', margin: '0 8px' }}>
                                                         I agree to Portofino
@@ -298,7 +298,7 @@ export default function ModalUserRegister({open, handleClose}) {
                                         </Box>
                                         <Box className='checkboxPrivacy' sx={{marginTop: '4px', paddingTop: '8px', display: 'block !important', position: 'relative', flex: 'wrap', alignItems: 'stretch', width: '100%'}}>
                                             <Box sx={{flex: '1 1 0', maxWidht: '100%', margin: '0 -4px', padding: '0 4px', display: 'flex', alignItems: 'center', cursor: 'pointer'}}>
-                                                <Box sx={{display: 'flex', flexWrap: 'nowrap', alignItems: 'center', flex: '1 1 0', maxWidth: '100%'}}>
+                                                <Box className='containerCheckbox' sx={{display: 'flex', flexWrap: 'nowrap', alignItems: 'center', flex: '1 1 0', maxWidth: '100%'}}>
                                                     <Checkbox required sx={{margin: 0, width: '16px', height: '16px', maxWidth: '100%', flex: '0 0 auto' }}/>
                                                     <Box sx={{fontSize: '12px', color: '#999', flex: '1 1 0', maxWidth: '100%', margin: '0 8px' }}>
                                                         I agree to Portofino
@@ -312,7 +312,7 @@ export default function ModalUserRegister({open, handleClose}) {
                                         </Box>
                                         <Box className='checkboxNewsletter' sx={{position: 'relative', display: 'flex', flexWrap: 'wrap', alignItems: 'stretch', width: '100%'}}>
                                             <Box sx={{flex: '1 1 0', maxWidht: '100%', margin: '8px -4px', padding: '0 4px', display: 'flex', alignItems: 'center', cursor: 'pointer'}}>
-                                                <Box sx={{display: 'flex', flexWrap: 'nowrap', alignItems: 'center', flex: '1 1 0', maxWidth: '100%'}}>
+                                                <Box className='containerCheckbox' sx={{display: 'flex', flexWrap: 'nowrap', alignItems: 'center', flex: '1 1 0', maxWidth: '100%'}}>
                                                     <Checkbox sx={{margin: 0, width: '16px', height: '16px', maxWidth: '100%', flex: '0 0 auto' }}/>
                                                     <Box sx={{fontSize: '12px', color: '#999', flex: '1 1 0', maxWidth: '100%', margin: '0 8px' }}>
                                                         Follow us to get newest information and
